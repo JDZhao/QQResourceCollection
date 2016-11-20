@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebSites>
+	<site>
+		<title>国际网络</title>
+		<uri>qqguoji.com</uri>
+		<charset>gb2312</charset>
+		<new-list-selector>td.right_05 > li > a</new-list-selector>
+		<content-page-title>tr.showtitle1 > td > b</content-page-title>
+		<content-page-content>#arctext</content-page-content>
+		<content-page-down>a.downLinks,0,href</content-page-down>
+	</site>
+	<site>
+		<title>小刀</title>
+		<uri>xiaodao.la</uri>
+		<charset>gb2312</charset>
+		<new-list-selector>div.BiaoTiZiShiYing > a</new-list-selector>
+		<content-page-title>h2.post-title,0</content-page-title>
+		<content-page-content>#demoZsy,0,a.pics</content-page-content>
+		<content-page-down>a.sbtn,1,onclick</content-page-down>
+		<content-page-down1>[style='LINE-HEIGHT: 16px'],1,a</content-page-down1>
+	</site>
+	<site>
+		<title>小k</title>
+		<uri>wofl86.com</uri>
+		<charset>gb2312</charset>
+		<new-list-selector>div.BiaoTiZiShiYing > a</new-list-selector>
+		<content-page-title>h2.post-title,0</content-page-title>
+		<content-page-content>#demoZsy,0,.img</content-page-content>
+		<content-page-down>[style='color:#E53333;'],0,a  #demoZsy,0,a.pics</content-page-down>
+	</site>
+	<site>
+		<title>业务乐园</title>
+		<uri>qqyewu.com</uri>
+		<charset>gb2312</charset>
+		<new-list-selector>#tablelist td a</new-list-selector>
+		<content-page-title>tr.showtitle1 > td b</content-page-title>
+		<content-page-content>td.border2</content-page-content>
+		<content-page-down>td.border2 a,2,href</content-page-down>
+	</site>
+	
+	<site>
+		<title>钻石皇朝</title>
+		<uri>www.txzshc.com</uri>
+		<charset>gb2312</charset>
+		<new-list-selector>ul.news-item li p a</new-list-selector>
+		<content-page-title>h2.title</content-page-title>
+		<content-page-content>div.introdtxt</content-page-content>
+		<content-page-down>div.downinfo ul  li a,0,href</content-page-down>
+	</site>
+</WebSites>
