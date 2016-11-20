@@ -151,7 +151,7 @@ public class WebSitesContent implements Serializable {
 		return "WebSitesContent [id=" + id + ", title=" + title + ", content=" + content + ", downloadSite="
 				+ downloadSite + ", sitesId=" + sitesId + ", addDate=" + addDate + ", titleSites=" + titleSites + "]";
 	}
-
+	
 
 
 
