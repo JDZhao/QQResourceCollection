@@ -4,6 +4,7 @@ import java.util.List;
 
 import course.spider.entity.WebSitesContent;
 
+
 public interface WebSitesContenDao {
 	int deleteByPrimaryKey(Integer id);
 
