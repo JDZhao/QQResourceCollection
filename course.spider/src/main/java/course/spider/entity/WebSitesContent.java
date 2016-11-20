@@ -83,6 +83,7 @@ public class WebSitesContent implements Serializable {
 	public Integer getSitesId() {
 		return sitesId;
 	}
+	
 
 	public void setSitesId(Integer sitesId) {
 		this.sitesId = sitesId;
